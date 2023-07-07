@@ -2,5 +2,11 @@
     font-family: 'Times New Roman', sans-serif; 
     font-size: '56px' !important;
     background-color: #C0C0C0 !important;
+  }
 
+  .bg-body-tertiary span {
+    font-family: 'Georgia', sans-serif; 
+    font-size: '56px' !important;
+    font-weight: 1000  !important;
+    background-color: #C0C0C0 !important;
   }

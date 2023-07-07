@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/nav/Header';
 import Title from './components/nav/Title';
+import About from './components/body/About';
 import Test from './components/body/Test';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <>
 <Title />
 <Header />
+<About />
 <Test />
       <div>
         <a href="https://vitejs.dev" target="_blank">
