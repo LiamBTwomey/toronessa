@@ -1,18 +1,12 @@
-import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
-import styles from './Test.css';
+import Card from 'react-bootstrap/Card';
+import styles from './About.css';
 
-
-function About() {
+function BodyOnlyExample() {
   return (
-    <Container>
-      <Navbar expand="lg" className="bg-body-tertiary">
-        <Container>
-          <Navbar.Brand href="#" style={{fontSize:"54px"}}>The Torunessa Test</Navbar.Brand>
-        </Container>
-      </Navbar>
-    </Container>
+    <Card>
+      <Card.Body><span>.  Click to open the ABOUT folder   .</span></Card.Body>
+    </Card>
   );
 }
 
-export default About;
+export default BodyOnlyExample;
