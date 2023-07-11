@@ -8,7 +8,7 @@ function ContainerOutsideExample() {
     <Container>
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand href="#" style={{fontSize:"54px"}}>The Torunessa Test</Navbar.Brand>
+          <Navbar.Brand href="#" style={{fontSize:"54px"}}>The Arrange Test</Navbar.Brand>
         </Container>
       </Navbar>
     </Container>

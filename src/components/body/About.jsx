@@ -3,9 +3,12 @@ import styles from './About.css';
 
 function BodyOnlyExample() {
   return (
-    <Card>
-      <Card.Body><span>.  Click to open the ABOUT folder   .</span></Card.Body>
-    </Card>
+<div>
+    <Card><span><br></br>Hello and welcome to the Torunessa Test.
+<br></br>Please turn your sound on</span></Card>
+<Card></Card>
+</div>
+
   );
 }
 

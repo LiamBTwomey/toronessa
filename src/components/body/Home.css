@@ -1,24 +1,14 @@
  .card {
-	padding: 5px;
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Times New Roman', sans-serif; 
     font-size: '56px' !important;
-    background-color: #4B0082 !important; 
-height: 275px
+    background-color: #4B0082 !important;  
+height: 275px;
   }
 
- .card span {
-	
-	padding: px;
-    font-family: 'lucida console', sans-serif; 
-    font-size: '56px' !important;
-    background-color: #FFFFFF !important; 
-height: 275px
-  }
   .card-body {
     font-family: 'Roboto', sans-serif; 
 color: #C0C0C0 !important;
     background-color: #4B0082 !important;
-
   }
 
 
@@ -27,8 +17,6 @@ color: #C0C0C0 !important;
 color: #000000 !important;
     background-color: #C0C0C0 !important;
 font-weight: bold;
-
-
   }
 
   .nav-link span {

@@ -4,16 +4,18 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/nav/Header';
 import Title from './components/nav/Title';
+import Home from './components/body/Home';
 import About from './components/body/About';
 import Test from './components/body/Test';
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-<Title />
 <Header />
+<Home />
 <About />
 <Test />
       <div>
