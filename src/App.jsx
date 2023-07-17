@@ -7,17 +7,21 @@ import Title from './components/nav/Title';
 import Home from './components/body/Home';
 import About from './components/body/About';
 import Test from './components/body/Test';
-
+import {
+  BrowserRouter, Routes, Route,
+} from 'react-router-dom';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+<div>
 <Header />
-<Home />
-<About />
-<Test />
+<Routes>
+  <Route path="/" element={<Home />}/>
+  <Route path="About" element={<About />}/>
+  <Route path="1" element={<Test />}/>
+</Routes>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -38,7 +42,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-    </>
+</div>
   )
 }
 

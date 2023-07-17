@@ -9,8 +9,8 @@ height: 275px
  .card span {
 	
 	padding: px;
-    font-family: 'lucida console', sans-serif; 
-    font-size: '56px' !important;
+    font-family: 'arial', sans-serif; 
+    font-size: small !important;
     background-color: #FFFFFF !important; 
 height: 275px
   }
