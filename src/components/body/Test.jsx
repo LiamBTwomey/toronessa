@@ -1,18 +1,23 @@
-import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
-import styles from './Test.css';
+import Card from 'react-bootstrap/Card';
+import styles from './About.css';
+import Button from 'react-bootstrap/Button';
 
 
-function ContainerOutsideExample() {
+function BodyOnlyExample() {
   return (
-    <Container>
-      <Navbar expand="lg" className="bg-body-tertiary">
-        <Container>
-          <Navbar.Brand href="#" style={{fontSize:"54px"}}>The Arrange Test</Navbar.Brand>
-        </Container>
-      </Navbar>
-    </Container>
+<div>
+    <Card><span><br></br>Please click/tap the arrow 16 times.
+<br></br><span>Please turn your sound on</span><br></br><br></br>
+<span>Click/tap the arrow</span><br></br><br></br>
+<Button href="1" variant="dark" size="lg" block>
+        →
+      </Button></span>
+</Card>
+<Card></Card>
+</div>
+
   );
 }
 
-export default ContainerOutsideExample;
+export default BodyOnlyExample;
+
