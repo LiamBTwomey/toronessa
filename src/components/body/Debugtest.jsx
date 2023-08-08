@@ -7,11 +7,11 @@ import { useState } from 'react'
 import Danceone from './dancingone.jsx'
 import Dancetwo from './dancingtwo.jsx'
 
-function BodyOnlyExample() {
+function Torunessa() {
   const [count, setCount] = useState(0)
   return (
   <div> 
-    <Card><span><br></br>Please click/tap the @ 16 times.
+    <Card><span><br></br>THIS IS THE DEBUGGER Please click/tap the @ 16 times.
 <br></br><br></br><img src={dancingone} size="50px 50px" />
 <br></br>
 
@@ -27,4 +27,4 @@ function BodyOnlyExample() {
   );
 }
 
-export default BodyOnlyExample;
+export default Torunessa;
