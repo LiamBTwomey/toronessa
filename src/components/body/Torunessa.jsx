@@ -6,6 +6,7 @@ import dancingtwo from './dancingtwo.jpg'
 import { useState } from 'react'
 import Danceone from './dancingone.jsx'
 import Dancetwo from './dancingtwo.jsx'
+import Resultsbutton from './resultsbutton.jsx'
 import Vannetastic from './Vannetastic.jsx'
 
 function Torunessa() {
@@ -46,11 +47,15 @@ function Torunessa() {
             return <Dancetwo />;
         case 16:
             return <Danceone />;
+        case 17:
+            return <Dancetwo />;
+        case 18:
+            return <Resultsbutton />;
         default:
-          return <Dancetwo />;}}
+          return <Resultsbutton />;}}
   return (
  <div><div> 
-    <Card><span><br></br>Please click/tap the @ 16 times. Click the arrow once complete 
+    <Card><span><br></br>Please click/tap the @ 18 times. Click the arrow once complete 
 <br></br><br></br>
 <span>{dancing()}</span>
 <br></br>
@@ -59,7 +64,7 @@ function Torunessa() {
 </span>
 </Card>
 <Card></Card>
-<div><br></br>test</div>
+<div><br></br>\`.</div>
 </div>
 </div>
   );
