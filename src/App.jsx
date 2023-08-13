@@ -8,6 +8,7 @@ import Home from './components/body/Home';
 import About from './components/body/About';
 import Test from './components/body/Test';
 import Torunessa from './components/body/Torunessa';
+import Movie from './components/body/Movie';
 import {
   BrowserRouter, Routes, Route,
 } from 'react-router-dom';
@@ -23,6 +24,7 @@ function App() {
   <Route path="About" element={<About />}/>
   <Route path="1" element={<Test />}/>
   <Route path="2" element={<Torunessa />}/>
+  <Route path="3" element={<Movie />}/>
 
 </Routes>
 </div>

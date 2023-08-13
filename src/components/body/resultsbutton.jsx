@@ -11,7 +11,14 @@ function resultsButton() {
   const [count, setCount] = useState(0)
   return (
 <div>
-<Link to='/About'><span>.   TORUNESSA TEST     .</span></Link>
+<Link to='/3'><span style={{color: 'black', fontWeight: 'bold', fontSize: 200}}>CLICK/TAP ME</span></Link>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
 </div>
 
   );
