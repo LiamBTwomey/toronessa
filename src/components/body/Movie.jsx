@@ -1,16 +1,19 @@
 import Card from 'react-bootstrap/Card';
 import styles from './About.css';
 import Button from 'react-bootstrap/Button';
-
+import sideways from '../../assets/sideways.mp4'
+import Upright from '../../assets/Upright.mp4'
 
 function Movie() {
   return (
 <div>
-    <Card><span><br></br>THIS IS A FILM Click/Tap to play
-<span>Click the arrow</span><br></br><br></br>
+    <Card>
+<br></br>
+<video src={sideways} width="300" height="300" controls />
+<br></br>
 <Button href="3" variant="dark" size="lg" block>
         →
-      </Button></span>
+      </Button>
 </Card>
 <Card></Card>
 <div><br></br>\`.</div>
