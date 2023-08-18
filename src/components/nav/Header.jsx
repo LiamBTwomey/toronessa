@@ -6,7 +6,7 @@ function Header() {
   return (
     <Nav variant="tabs" defaultActiveKey="/home">
       <Nav.Item>
-        <Nav.Link eventKey="link-1"><span>.   TORUNESSA TEST     .</span></Nav.Link>
+        <Nav.Link href="/"><span>.   TORUNESSA TEST     .</span></Nav.Link>
       </Nav.Item>
 
     </Nav>
