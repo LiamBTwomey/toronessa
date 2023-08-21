@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card';
 import styles from './About.css';
 import Button from 'react-bootstrap/Button';
 import sideways from '../../assets/sideways.mp4'
-import Upright from '../../assets/Upright.mp4'
+
 
 function Movie() {
   return (
