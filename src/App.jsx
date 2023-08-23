@@ -6,7 +6,6 @@ import Home from './components/body/Home';
 import About from './components/body/About';
 import Test from './components/body/Test';
 import Torunessa from './components/body/Torunessa';
-import Movie from './components/body/Movie';
 import Clip from './components/body/Clip';
 import {
   BrowserRouter, Routes, Route,
