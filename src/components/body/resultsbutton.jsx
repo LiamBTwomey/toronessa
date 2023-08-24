@@ -11,7 +11,7 @@ function resultsButton() {
   const [count, setCount] = useState(0)
   return (
 <div>
-<Link to='/3'><span style={{color: 'black', fontWeight: 'bold', fontSize: 200}}>CLICK/TAP ME THEN CLICK/TAP THE VIDEO</span></Link>
+<Link to='/3'><span style={{color: 'black', fontWeight: 'bold', fontSize: 200}}>CLICK/TAP ME THEN CLICK/TAP PLAY</span></Link>
 <br></br>
 <br></br>
 <br></br>

@@ -6,7 +6,7 @@ function BodyOnlyExample() {
 
   return (
     <Card>
-      <Card.Body><Card.Link href="/about"><span>.  Click/tap here to open the folder   .</span></Card.Link></Card.Body>
+      <Card.Body><Card.Link href="/1"><span>.  Click/tap here to open the folder   .</span></Card.Link></Card.Body>
 </Card>
   );
 }

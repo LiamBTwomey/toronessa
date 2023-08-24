@@ -1,10 +1,8 @@
 import { useState } from 'react'
 import './App.css'
-import Header from './components/nav/Header';
-import Title from './components/nav/Title';
+import Header from './components/nav/Header'
 import Home from './components/body/Home';
 import About from './components/body/About';
-import Test from './components/body/Test';
 import Torunessa from './components/body/Torunessa';
 import Clip from './components/body/Clip';
 import {
@@ -19,8 +17,7 @@ function App() {
 <Header />
 <Routes>
   <Route path="/" element={<Home />}/>
-  <Route path="About" element={<About />}/>
-  <Route path="1" element={<Test />}/>
+  <Route path="1" element={<About />}/>
   <Route path="2" element={<Torunessa />}/>
   <Route path="3" element={<Clip />}/>
 
