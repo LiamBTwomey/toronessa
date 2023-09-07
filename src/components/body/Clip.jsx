@@ -1,7 +1,8 @@
 import Card from 'react-bootstrap/Card';
 import styles from './About.css';
 import Button from 'react-bootstrap/Button';
-import sideways from '../../assets/sideways.mp4'
+import clip from '../../assets/VanneFar.mp4'
+import clipsecond from '../../assets/TorunessaClose.mp4'
 
 function Movie() {
     const clipBoardCopy = function(){{{
@@ -11,7 +12,7 @@ function Movie() {
 <div>
     <Card>
 <br></br>
-<video src={sideways} width="300" height="300" controls />
+<video src={clipsecond} width="250" height="250" controls />
 <br></br>
 <Button onClick={clipBoardCopy} variant="outline-light" size="sm" block>
     Click to copy the homepage URL.

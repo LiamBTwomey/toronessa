@@ -55,12 +55,12 @@ function Torunessa() {
           return <Resultsbutton />;}}
   return (
  <div><div> 
-    <Card><span><br></br>Please click/tap the @ 18 times. Click the text once complete. 
+    <Card><span><br></br>Please click/tap the arrow 18 times. Click the text once complete. 
 <br></br><br></br>
 <span>{dancing()}</span>
 <br></br>
  <Button variant="dark" size="sm" onClick={() => setCount((count) => count + 1)}>
-          @ {count}</Button>
+ → {count}</Button>
 </span>
 </Card>
 <Card></Card>
