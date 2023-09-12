@@ -6,7 +6,7 @@ import clipsecond from '../../assets/TorunessaClose.mp4'
 
 function Movie() {
     const clipBoardCopy = function(){{{
-        navigator.clipboard.writeText("https://torunessatest.com")}}{alert("The URL has been copied to your clipboard!")}}
+        navigator.clipboard.writeText("https://torunessa.com")}}{alert("The URL has been copied to your clipboard!")}}
   return (
 <div>
 <div>
